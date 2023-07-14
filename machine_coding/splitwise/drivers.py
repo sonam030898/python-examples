@@ -31,5 +31,8 @@ contribution = {'user1': 100, 'user2': 100, 'user3': 100, 'user4': 100, 'user5':
 bill = billController.addBill('bill1', group1, 500, contribution, paidBy)
 
 balance = billController.userBalance('user2')
+balance = billController.userBalance('user1')
+balance = billController.userBalance('user3')
+balance = billController.userBalance('user4')
 
 print(balance)
